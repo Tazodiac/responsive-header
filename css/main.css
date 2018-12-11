@@ -49,3 +49,47 @@ nav a {
   color: #6c8fe0;
   white-space: nowrap;
 }
+
+li {
+  padding: .3em 0 .5em;
+  justify-content: center;
+}
+
+nac a:hover {
+  background-color: #6c8fe0;
+  color: #fff;
+}
+
+@media only screen and (min-width: 25em) {
+
+  li {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (mind-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav li {
+    margin: 0;
+    width: 25%;
+  }
+
+  li {
+    padding: .3em 0 .5em;
+  }
+
+}
